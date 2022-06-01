@@ -1,0 +1,11 @@
+framework module LastLine {
+  umbrella header "LastLine.h"
+
+  export *
+  module * { export * }
+}
+
+module LastLine.Swift {
+    header "LastLine-Swift.h"
+    requires objc
+}
