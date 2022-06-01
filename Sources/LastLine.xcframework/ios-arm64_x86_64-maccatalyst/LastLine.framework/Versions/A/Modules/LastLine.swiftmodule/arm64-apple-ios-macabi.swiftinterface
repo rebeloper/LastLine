@@ -5,6 +5,12 @@
 import Swift
 import SwiftUI
 import _Concurrency
+public struct ContentView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
+}
 public struct LastLine {
   public static func ofCode() -> some SwiftUI.View
   
