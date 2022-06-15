@@ -19,3 +19,9 @@ public struct ContentView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
 }
+public class LastLineOfCode : Foundation.ObservableObject {
+  public init(licenseKey: Swift.String)
+  public func setData(_ data: Foundation.Data)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
