@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pi33F0qno+RVKhAyr1TjyRGqnk4=
+		Aa2erWwxiymgYbEuNwnVV9ySfIo=
 		</data>
 		<key>Headers/LastLine-Swift.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OIdKcIvrgn5wY771zWk6JQkOj8o=
+		FgGhIBxYSuxL3ssyGTgtIcBVij4=
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		I9+0lNqRpAOnVZ54z5SxzNMyrbc=
+		tivJDAtU8SiXuYd7tsBENiGu6AY=
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nyrAJSZ63tePTFQsHZlbkOLxBF0=
+		cwPTaaNr2SLqQc4RMIVWEgz/+Yc=
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		46RbWb5Mi9Eordu6xhnmW9F6EWI=
+		XGHayi8bTCt4QhlWqNhxUeiQ+hA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I5VwoPv7kGbYAtaksuPlWVh3+8MAAj1UbZnRfdI2Na4=
+			3DWE0RAt7TMe3EFnQc9UoBLZZHiaMthvxyQKIw3yxnA=
 			</data>
 		</dict>
 		<key>Headers/LastLine-Swift.h</key>
@@ -64,21 +64,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K1gD/KW7rpnbgV7x8AiD3ClD5H8AFR37X7GnjOApBP0=
+			vTFsuIiadtEmbMmdugg/NPuJ+ARu7rcV3loylXh4pks=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z9VBk/s9v1l4ntjb34tSPt7sY4caP80b9ZDBz6ELRzw=
+			F+rdCjMMGoRj4ufGUlwfdM9T4OkUrXvSFPhohly4C9k=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6pB3kc5QaNXo36MfU3yTZqDYI9+U+ToR2G3tF5Z0q/0=
+			R+q4QcTS5kBc17rT5EZGTHx4HbbLM24UUhSLBYIXGts=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
