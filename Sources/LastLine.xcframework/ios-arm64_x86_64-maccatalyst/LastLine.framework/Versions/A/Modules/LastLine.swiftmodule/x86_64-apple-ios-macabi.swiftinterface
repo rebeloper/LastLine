@@ -7,6 +7,7 @@ import Swift
 import SwiftUI
 import _Concurrency
 public struct LastLineData : Swift.Codable {
+  public let title: Swift.String
   public init(title: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
