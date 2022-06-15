@@ -13,6 +13,7 @@ public struct LastLineData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct ContentView : SwiftUI.View {
+  public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
