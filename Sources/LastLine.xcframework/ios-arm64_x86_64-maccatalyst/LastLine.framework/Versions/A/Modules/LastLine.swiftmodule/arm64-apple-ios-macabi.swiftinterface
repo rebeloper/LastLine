@@ -14,19 +14,32 @@ public struct LastLineData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct ContentView : SwiftUI.View {
-  @SwiftUI.StateObject @_projectedValueProperty($viewModel) @_Concurrency.MainActor(unsafe) public var viewModel: LastLine.ContentViewModel {
+  @SwiftUI.ObservedObject @_projectedValueProperty($lastLine) @_Concurrency.MainActor(unsafe) public var lastLine: LastLine.LastLine {
+    get
+    set
+    _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $lastLine: SwiftUI.ObservedObject<LastLine.LastLine>.Wrapper {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var $viewModel: SwiftUI.ObservedObject<LastLine.ContentViewModel>.Wrapper {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public init()
+  @_Concurrency.MainActor(unsafe) public init(lastLine: SwiftUI.ObservedObject<LastLine.LastLine>)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
 }
-@_hasMissingDesignatedInitializers public class ContentViewModel : Combine.ObservableObject {
+public class LastLine : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($licenseKey) public var licenseKey: Swift.String {
+    get
+    set
+    _modify
+  }
+  public var $licenseKey: Combine.Published<Swift.String>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public init(licenseKey: Swift.String? = nil)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
