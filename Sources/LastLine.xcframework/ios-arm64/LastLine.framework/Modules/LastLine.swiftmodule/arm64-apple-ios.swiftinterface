@@ -22,7 +22,7 @@ public struct LastLineData : Swift.Codable {
   @_Concurrency.MainActor(unsafe) public var $lastLineApp: SwiftUI.ObservedObject<LastLine.LastLineApp>.Wrapper {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(lastLineApp: SwiftUI.ObservedObject<LastLine.LastLineApp>)
+  @_Concurrency.MainActor(unsafe) public init(lastLineApp: LastLine.LastLineApp)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
