@@ -13,6 +13,6 @@ public struct LastLineData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct LastLine {
-  public static func ofCode(licenseKey: Swift.String, lastLineData: LastLine.LastLineData) -> some SwiftUI.View
+  public static func ofCode(licenseKey: Swift.String) -> some SwiftUI.View
   
 }
