@@ -14,21 +14,21 @@ public struct LastLineData : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct ContentView : SwiftUI.View {
-  @SwiftUI.ObservedObject @_projectedValueProperty($lastLine) @_Concurrency.MainActor(unsafe) public var lastLine: LastLine.LastLine {
+  @SwiftUI.ObservedObject @_projectedValueProperty($lastLineApp) @_Concurrency.MainActor(unsafe) public var lastLineApp: LastLine.LastLineApp {
     get
     set
     _modify
   }
-  @_Concurrency.MainActor(unsafe) public var $lastLine: SwiftUI.ObservedObject<LastLine.LastLine>.Wrapper {
+  @_Concurrency.MainActor(unsafe) public var $lastLineApp: SwiftUI.ObservedObject<LastLine.LastLineApp>.Wrapper {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(lastLine: SwiftUI.ObservedObject<LastLine.LastLine>)
+  @_Concurrency.MainActor(unsafe) public init(lastLineApp: SwiftUI.ObservedObject<LastLine.LastLineApp>)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
 }
-public class LastLine : Combine.ObservableObject {
+public class LastLineApp : Combine.ObservableObject {
   @Combine.Published @_projectedValueProperty($licenseKey) public var licenseKey: Swift.String {
     get
     set
