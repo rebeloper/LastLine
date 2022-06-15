@@ -6,7 +6,12 @@ import Foundation
 import Swift
 import SwiftUI
 import _Concurrency
+public struct LastLineData : Swift.Codable {
+  public init(title: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct LastLine {
-  public static func ofCode(licenseKey: Swift.String) -> some SwiftUI.View
+  public static func ofCode(licenseKey: Swift.String, lastLineData: LastLine.LastLineData) -> some SwiftUI.View
   
 }
