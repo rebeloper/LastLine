@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Assets.car</key>
+		<data>
+		qQUjtV6lXvCZ//98BKinvS1uxUY=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
 		Yjumn5UGJfMgGVogs/X/FS86s9w=
@@ -43,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q1Gm2jexYAfVzZLM5se5V9Phl7G/5LGnMszIvY5rcH8=
+			QGrHzVXO43mfHEprldf6SN/Tb4JZu9dqkAaf5ESnRqM=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -64,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIJvEQ78Wvqkb+uIf82hWgiv8NOnjo5LvtVwi4YmTf4=
+			PsCqu9DdFbH2URRNo5SeXr4g65AmixmqTnyEyVkZqys=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -72,6 +76,13 @@
 			<key>hash2</key>
 			<data>
 			dVvs3daDKcDvtxSvnuOJqkx6RxBuiwV7LaU2w2wV0G4=
+			</data>
+		</dict>
+		<key>Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zDCYqZmKeffId3eTrQ7az5usppQwCCS6WjJnrHUwcyY=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

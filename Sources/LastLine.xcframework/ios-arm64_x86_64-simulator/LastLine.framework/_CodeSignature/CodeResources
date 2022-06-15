@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		pi33F0qno+RVKhAyr1TjyRGqnk4=
+		</data>
 		<key>Headers/LastLine-Swift.h</key>
 		<data>
 		Kcj5Z92xgkQkpKTnWbV1gq25HVw=
@@ -26,7 +30,7 @@
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zvM42+JNrTvbUpLrTwDl1mnfxf0=
+		6JQUCsNnUZyFW8ynJlyf/sjXFsQ=
 		</data>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PV3bNst8Pzy8v/siOZwzun4TmGY=
+		vCzjZe0PAFbveZseTcmqrOmRhY4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +51,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I5VwoPv7kGbYAtaksuPlWVh3+8MAAj1UbZnRfdI2Na4=
+			</data>
+		</dict>
 		<key>Headers/LastLine-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -79,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NwPP1Ej8eER6QDDfsO3NmSd1BhHnjjarQ8x8rSWs8I0=
+			lDWbe9WWazLnUXFikUu9W7r0g0IGcGVhwBIJ3jG5gRM=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			beiOEXDeZJZpCcH3sSuBtMKICtE3ZjRL9pAiYKeqorU=
+			uvwPjq+ne3chQQh8x8Ak8tLE6v8KTBMo44b9HEF4Yqg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
