@@ -12,7 +12,23 @@ public struct LastLineData : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct LastLine {
-  public static func ofCode(licenseKey: Swift.String) -> some SwiftUI.View
-  
+@_Concurrency.MainActor(unsafe) public struct ContentView : SwiftUI.View {
+  @SwiftUI.ObservedObject @_projectedValueProperty($lastLine) @_Concurrency.MainActor(unsafe) public var lastLine: LastLine.LastLine {
+    get
+    set
+    _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $lastLine: SwiftUI.ObservedObject<LastLine.LastLine>.Wrapper {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
+}
+public class LastLine : Foundation.ObservableObject {
+  public init(licenseKey: Swift.String)
+  public func setData(_ data: Foundation.Data)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
 }
