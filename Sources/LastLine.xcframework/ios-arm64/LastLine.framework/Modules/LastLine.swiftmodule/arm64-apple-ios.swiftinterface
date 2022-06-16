@@ -39,6 +39,16 @@ public class LastLineApp : Combine.ObservableObject {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($lastLineData) public var lastLineData: LastLine.LastLineData {
+    get
+    set
+    _modify
+  }
+  public var $lastLineData: Combine.Published<LastLine.LastLineData>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   public init(licenseKey: Swift.String? = nil)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
