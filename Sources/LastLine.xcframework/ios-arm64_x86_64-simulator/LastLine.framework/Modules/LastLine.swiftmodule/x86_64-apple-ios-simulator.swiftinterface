@@ -10,41 +10,10 @@ import _Concurrency
 public struct License {
   public static var key: Swift.String
 }
-public struct LastLineData : Swift.Codable {
-  public let title: Swift.String
-  public init(title: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
 @_Concurrency.MainActor(unsafe) public struct LastLineOfCode : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(_ licenseKey: Swift.String)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8LastLine0aB6OfCodeV4bodyQrvp", 0) __
-}
-public class LastLineApp : Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($licenseKey) public var licenseKey: Swift.String {
-    get
-    set
-    _modify
-  }
-  public var $licenseKey: Combine.Published<Swift.String>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
-  @Combine.Published @_projectedValueProperty($data) public var data: LastLine.LastLineData {
-    get
-    set
-    _modify
-  }
-  public var $data: Combine.Published<LastLine.LastLineData>.Publisher {
-    get
-    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-    set
-  }
-  public init(licenseKey: Swift.String? = nil)
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
 }
