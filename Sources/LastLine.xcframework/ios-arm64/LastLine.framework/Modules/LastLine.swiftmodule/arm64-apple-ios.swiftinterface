@@ -7,7 +7,7 @@ import Foundation
 import Swift
 import SwiftUI
 import _Concurrency
-public struct License {
+public struct LicenseManager {
   public static var key: Swift.String
 }
 @_Concurrency.MainActor(unsafe) public struct LastLineOfCode : SwiftUI.View {
