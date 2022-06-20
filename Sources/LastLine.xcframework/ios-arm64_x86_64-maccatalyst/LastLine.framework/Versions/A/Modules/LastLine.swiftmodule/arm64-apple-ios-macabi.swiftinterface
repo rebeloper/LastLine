@@ -11,9 +11,6 @@ import _Concurrency
 extension UIKit.UIWindow {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
 }
-public struct LicenseManager {
-  public static var key: Swift.String
-}
 @_Concurrency.MainActor(unsafe) public struct ContentView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
