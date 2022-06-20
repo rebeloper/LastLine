@@ -18,3 +18,21 @@ extension UIKit.UIWindow {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11ContentViewV4bodyQrvp", 0) __
 }
+public struct SlideInView<Content, Container> : SwiftUI.View where Content : SwiftUI.View, Container : SwiftUI.View {
+  public init(isActive: SwiftUI.Binding<Swift.Bool>, edge: SwiftUI.Edge = .leading, paddingPercentage: CoreGraphics.CGFloat = 0.35, options: LastLine.SlideInViewOptions = SlideInViewOptions(), content: @escaping () -> Content, container: @escaping () -> Container)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8LastLine11SlideInViewV4bodyQrvp", 0) __<Content, Container>
+}
+public struct SlideInViewOptions {
+  public var paddingColor: SwiftUI.Color
+  public var paddingColorOpacity: CoreGraphics.CGFloat
+  public var shouldDismissUponSwipe: Swift.Bool
+  public var shouldDismissUponExternalTap: Swift.Bool
+  public init(paddingColor: SwiftUI.Color = Color(.label), paddingColorOpacity: CoreGraphics.CGFloat = 0.1, shouldDismissUponSwipe: Swift.Bool = true, shouldDismissUponExternalTap: Swift.Bool = true)
+}
+extension SwiftUI.View {
+  public func slideInView<Content>(isActive: SwiftUI.Binding<Swift.Bool>, edge: SwiftUI.Edge = .leading, paddingPercentage: CoreGraphics.CGFloat = 0.3, options: LastLine.SlideInViewOptions = SlideInViewOptions(), content: @escaping () -> Content) -> some SwiftUI.View where Content : SwiftUI.View
+  
+}
