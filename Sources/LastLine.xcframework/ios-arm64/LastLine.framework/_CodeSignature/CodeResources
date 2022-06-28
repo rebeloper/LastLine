@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LastLine-Swift.h</key>
 		<data>
-		u1P8L2aaVYMirM81GKU+V/r4Dm4=
+		yg3/XVHsSenfsg77qAF48uz/O54=
 		</data>
 		<key>Headers/LastLine.h</key>
 		<data>
@@ -20,17 +20,25 @@
 		<data>
 		OIdKcIvrgn5wY771zWk6JQkOj8o=
 		</data>
+		<key>LastLine.momd/LastLine.mom</key>
+		<data>
+		u1XLccAswrAdMABdItyKT1sDfmU=
+		</data>
+		<key>LastLine.momd/VersionInfo.plist</key>
+		<data>
+		3OfMEU/LMCu3kKOR70d4NR+jaVY=
+		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		SSMal3TPW81Md/lLgBtlrHX6LuQ=
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bXo41vmAqtSglZfsdk13r2Vlcoc=
+		hL//gwrPYf08vL8cNK2WP/lUM20=
 		</data>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BYvSiUrq+1xxoYLFOtLC2KSIx40=
+		8VAq/AwY/kDlXqyIlVbG2eowWNI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCkc5o3gBk9qhhc90qiL/mW+b0JKRBUhAyRrGNhzemA=
+			CNi2J/xv0rV4fxm6aolPhYshpNlxSSxRqJWy9bmeNyQ=
 			</data>
 		</dict>
 		<key>Headers/LastLine.h</key>
@@ -58,6 +66,20 @@
 			<key>hash2</key>
 			<data>
 			hWayO9qAeY4HvzIsndT8rVazeXLB5tJBJ/1eqDDacEg=
+			</data>
+		</dict>
+		<key>LastLine.momd/LastLine.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rAsqlf07rAJBTRQhkJm0beG3tlZro7YeRxROffRN2MI=
+			</data>
+		</dict>
+		<key>LastLine.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rLQeIND4/0Dolmx0hiWGxrqg6Zv6rkb4MI9U8ctl96g=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajLHB+Zy/UMVyWir6CjwIw5RUqULtpsV8W8BmcchOnQ=
+			4e28tlSiQiB2ICr4t6dpGpO894WI5cxoBS9nR10BAHI=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zo89b2dgAhWPICJ3/7mAeiJA7sV+pfBl62xm36XxeVA=
+			leOOrJ1yUfw4Fa1Jm82GlqERQeisSch1LigBHbs14mY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
