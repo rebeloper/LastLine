@@ -1,16 +1,13 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LastLine
-import CloudKit
 import Combine
-import CoreData
 import Foundation
 @_exported import LastLine
 import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
-import _CoreData_CloudKit
 extension UIKit.UIWindow {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
 }
@@ -38,18 +35,4 @@ public struct SlideInViewOptions {
 extension SwiftUI.View {
   public func slideInView<Content>(isActive: SwiftUI.Binding<Swift.Bool>, edge: SwiftUI.Edge = .leading, paddingPercentage: CoreGraphics.CGFloat = 0.3, options: LastLine.SlideInViewOptions = SlideInViewOptions(), content: @escaping () -> Content) -> some SwiftUI.View where Content : SwiftUI.View
   
-}
-@_inheritsConvenienceInitializers @objc(JSONData) public class JSONData : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
-extension LastLine.JSONData {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<LastLine.JSONData>
-  @objc @NSManaged dynamic public var data: Foundation.Data? {
-    @objc get
-    @objc set
-  }
-}
-extension LastLine.JSONData : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
 }

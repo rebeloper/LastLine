@@ -12,14 +12,6 @@
 		<data>
 		Yjumn5UGJfMgGVogs/X/FS86s9w=
 		</data>
-		<key>Resources/LastLine.momd/LastLine.mom</key>
-		<data>
-		u1XLccAswrAdMABdItyKT1sDfmU=
-		</data>
-		<key>Resources/LastLine.momd/VersionInfo.plist</key>
-		<data>
-		3OfMEU/LMCu3kKOR70d4NR+jaVY=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -27,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6mK08c8P59yw/wr2+INNxXnDBK5pfJARDUmPtW3Wgo8=
+			Pr5OKsdasqBzNGI+uQaR5Zx7r82zqlQtY3+jq3ny9Ys=
 			</data>
 		</dict>
 		<key>Headers/LastLine.h</key>
@@ -48,14 +40,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kzWfxNBQ/77chnx/P80g5DHYoCyCE23Iym64oO28t8U=
+			xrP5Cydzq199Lv60JEQrln0yvinScwaqSbJCPeRJ3ZM=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x6HUmr/O41cFQUsTewtSrsjY3PBRT35qaZnjOQa34ps=
+			VUKJlC1YiTcQTQd6wyW068GV8mecK8lNub5e1aU3774=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -69,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p6lSHWAwfDGV+4cbbbTxedkTeIor2hMsORHyKOyNaUQ=
+			p5tli1CY/vvAokrxViXelmZHc+WPwzxDHqHLZSVFIQ8=
 			</data>
 		</dict>
 		<key>Modules/LastLine.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CT1zwKyYZ6sW+zUuJrDQksEdHqHDFxZDK5QMJ+lUQOg=
+			P4VO4O810z5zTteUN7bRZT8kNxAgVxJIuCnBOm8sJbg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -98,20 +90,6 @@
 			<key>hash2</key>
 			<data>
 			hc4zVE1vu509Tz0qNst5nEBRXmDo5+tmS4+IfQRanyc=
-			</data>
-		</dict>
-		<key>Resources/LastLine.momd/LastLine.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rAsqlf07rAJBTRQhkJm0beG3tlZro7YeRxROffRN2MI=
-			</data>
-		</dict>
-		<key>Resources/LastLine.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rLQeIND4/0Dolmx0hiWGxrqg6Zv6rkb4MI9U8ctl96g=
 			</data>
 		</dict>
 	</dict>
